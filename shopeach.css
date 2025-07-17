@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff1f4;
+  margin: 0;
+  padding: 0;
+  background-image:url("Red Gradient Linktree Background.png");
+  background-size: cover;
+
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 1px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+img {
+  width: 250px;
+  border-radius: 1px;
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #f70505;
+  color: #fff;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color:#f70505;
+}
+
+form {
+  display: none;
+  margin-top: 20px;
+}
+
+form input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+#confirmationMessage {
+  display: none;
+  margin-top: 20px;
+  background-color: #dff0d8;
+  padding: 20px;
+  border-radius: 8px;
+  color:#f5f0f0;
+}
