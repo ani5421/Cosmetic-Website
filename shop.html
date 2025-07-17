@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Luxury Lipstick Gallery</title>
+  <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+
+  <h1 class="title">SolStore Collection</h1>
+  <div class="gallery">
+
+    <!-- YSL -->
+    <div class="product-card">
+      <div class="slider">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.0Stlg5sAxXucgnpBYq711wHaHa&pid=Api&P=0&h=180" class="slide ysl" />
+        <img src="https://tse3.mm.bing.net/th?id=OIP.OQ-OZ2pQq6KFO5CiLZ2qiAHaIl&pid=Api&P=0&h=180" class="slide ysl hidden" />
+        <img src="https://tse1.mm.bing.net/th?id=OIP.AEmM3Yfe_NJRgS0MWAzc0wHaLH&pid=Api&P=0&h=180" class="slide ysl hidden" />
+        <button class="prev" onclick="changeSlide('ysl', -1)">❮</button>
+        <button class="next" onclick="changeSlide('ysl', 1)">❯</button>
+      </div>
+      <h3>YSL Rouge Pur Couture</h3>
+      <p class="price">₹29,000</p>
+      <button class="buy-btn" onclick="openForm('YSL Rouge Pur Couture', '₹29,000')">Buy Now</button>
+    </div>
+
+    <!-- Gucci -->
+    <div class="product-card">
+      <div class="slider">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.awZDP2_s2cRIZE_B28DD-wHaE8&pid=Api&P=0&h=180" class="slide gucci" />
+        <img src="https://tse3.mm.bing.net/th?id=OIP.K846APCXiperw75sNZZhwQHaE7&pid=Api&P=0&h=180" class="slide gucci hidden" />
+        <img src="https://tse4.mm.bing.net/th?id=OIP.sj2znRu3B132g2Va9yQAygHaHa&pid=Api&P=0&h=180" class="slide gucci hidden" />
+        <button class="prev" onclick="changeSlide('gucci', -1)">❮</button>
+        <button class="next" onclick="changeSlide('gucci', 1)">❯</button>
+      </div>
+      <h3>Gucci Satin Lipstick</h3>
+      <p class="price">₹50,032</p>
+      <button class="buy-btn" onclick="openForm('Gucci Satin Lipstick', '₹50,032')">Buy Now</button>
+    </div>
+
+    <!-- Tom Ford -->
+    <div class="product-card">
+      <div class="slider">
+        <img src="https://i.pinimg.com/736x/17/3d/c1/173dc17ad937bffc2570739ed70b589f.jpg" class="slide tomford" />
+        <img src="https://tse2.mm.bing.net/th?id=OIP.6LA9HZ-LLhhuxDmwlBHlFgHaHa&pid=Api&P=0&h=180" class="slide tomford hidden" />
+        <img src="https://tse3.mm.bing.net/th?id=OIP.dTtuebBQKwCaDhd1wae3swHaE6&pid=Api&P=0&h=180" class="slide tomford hidden" />
+        <button class="prev" onclick="changeSlide('tomford', -1)">❮</button>
+        <button class="next" onclick="changeSlide('tomford', 1)">❯</button>
+      </div>
+      <h3>Tom Ford Lip Color</h3>
+      <p class="price">₹42,001</p>
+      <button class="buy-btn" onclick="openForm('Tom Ford Lip Color', '₹42,001')">Buy Now</button>
+    </div>
+
+  </div>
+
+  <!-- Order Form Popup -->
+  <div id="orderForm" class="form-popup hidden">
+    <form onsubmit="submitForm(event)">
+      <h2>Order Details</h2>
+      <label>Product:</label>
+      <input type="text" id="product" readonly>
+      <label>Price:</label>
+      <input type="text" id="price" readonly>
+      <label>Your Name:</label>
+      <input type="text" required>
+      <label>Phone:</label>
+      <input type="tel" required>
+      <label>Address:</label>
+      <textarea required></textarea>
+      <button type="submit" class="submit-btn">Place Order</button>
+      <button type="button" class="close-btn" onclick="closeForm()">Cancel</button>
+    </form>
+  </div>
+
+  <!-- Confirmation Message -->
+  <div id="popup" class="popup-msg hidden">
+    <p>Your order is completed! Thank you!</p>
+  </div>
+
+  <script src="shop.js"></script>
+</body>
+</html>
