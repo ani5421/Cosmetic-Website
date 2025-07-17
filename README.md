@@ -1,6 +1,7 @@
 #A Modern Cosmetic E-Commerce Website<br>
 Solstore is a responsive cosmetic e-commerce website designed to provide users with a smooth and modern shopping experience.
-It showcases various brand lipstick  with a clean and elegant UI.
+It showcases various brand lipstick  with a clean and elegant UI.<br>
+Homepage is saved as "index.html" for this website.
 <img width="1874" height="920" alt="Screenshot 2025-06-12 181855" src="https://github.com/user-attachments/assets/b2d73ffd-61d5-411b-9b45-fe8b26e85af2" />
 <img width="1870" height="863" alt="Screenshot 2025-06-12 181939" src="https://github.com/user-attachments/assets/1db0f35d-b832-4b95-8643-e785c7c35b9b" />
 
