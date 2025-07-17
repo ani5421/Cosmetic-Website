@@ -1,4 +1,4 @@
-#A Modern Cosmetic E-Commerce Website
+#A Modern Cosmetic E-Commerce Website<br>
 GlamourGlow is a responsive cosmetic e-commerce website designed to provide users with a smooth and modern shopping experience.
 It showcases various brand lipstick  with a clean and elegant UI.
 <img width="1874" height="920" alt="Screenshot 2025-06-12 181855" src="https://github.com/user-attachments/assets/b2d73ffd-61d5-411b-9b45-fe8b26e85af2" />
