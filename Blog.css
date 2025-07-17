@@ -1,0 +1,81 @@
+
+body{
+     background-image:url("Red Gradient Linktree Background.png");
+    background-size: cover;
+}
+.blog-header {
+  /* red-pink tone */
+  background-image:url("Red Gradient Linktree Background.png");
+    background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.blog-header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.blog-header p {
+  font-size: 1.8em;
+}
+
+.blog-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 40px;
+  background-color: #fff;
+}
+
+.blog-card {
+  width: 320px;
+  background: #fff4f8;
+  border: 2px solid #151313;
+  border-radius: 1px;
+  overflow: hidden;
+  box-shadow: 0 8px 15px rgba(214, 51, 132, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+
+.blog-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.blog-content {
+  padding: 20px;
+}
+
+.blog-content h2 {
+  color: #090101;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.blog-content p {
+  font-size: 1em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.read-more {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color:#f70505;
+  color: white;
+  text-decoration: none;
+  border-radius: 1px;
+  font-size: 0.9em;
+}
+
+.read-more:hover {
+  background-color: #f70505;
+}
