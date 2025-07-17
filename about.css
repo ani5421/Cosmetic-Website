@@ -1,0 +1,68 @@
+body{
+    background-image:url("Red Gradient Linktree Background.png");
+    background-size: cover;
+}
+
+.about-header {
+  background-image:url("Red Gradient Linktree Background.png");
+  background-size: cover;
+  text-align: center;
+  padding: 60px 20px;
+  color: rgb(246, 238, 238);
+}
+
+.about-header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.about-header p {
+  font-size: 1.2em;
+  color: #f70505;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 40px 60px;
+  align-items: center;
+  background-color: #fff4f8;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.about-content {
+  flex: 1;
+  min-width: 300px;
+  color: #333;
+}
+
+.about-content h2 {
+  color: #ef1313;
+  margin-top: 20px;
+}
+
+.about-content p {
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+
+.about-content ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+li{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
